@@ -12,7 +12,8 @@ In the first step, **instance segmentation** of mitochondria was performed on or
 
 Electron microscopy examples showed distinct ultrastructural differences between healthy fibroblasts and those with a **TMEM70 gene mutation**, such as rounded mitochondria and reduced cristae density. The approach effectively identifies structural abnormalities like cristae loss and “onion ring” formations associated with specific dysfunctions. Overall, the proposed deep learning workflow enables scalable, reproducible, and quantitative assessment of mitochondrial morphology, enhancing diagnostic and mechanistic understanding of mitochondrial pathologies.
 
-Fig. 1: **A two-step approach to classify morphology or cristae** using techniques of deep learning:
+Fig. 1: **A two-step approach to classify morphology or cristae** using techniques of deep learning in **napari**:
+
 <img width="1361" height="893" alt="two-step-approach-to-classification" src="https://github.com/user-attachments/assets/84dc6aa9-6dcf-4ffd-b193-f76edf19bfb8" />
 
 ## Protocols for training in napari and models
