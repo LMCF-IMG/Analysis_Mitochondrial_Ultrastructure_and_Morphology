@@ -16,8 +16,8 @@ Fig. 1: **A two-step approach to classify morphology or cristae** using techniqu
 
 <img width="1361" height="893" alt="two-step-approach-to-classification" src="https://github.com/user-attachments/assets/84dc6aa9-6dcf-4ffd-b193-f76edf19bfb8" />
 
-## Protocols for training in napari and models
+#### Protocols for training in napari and models
 
-## Preparation of image data for training
+#### Preparation of image data for training
 
-## Supported... s odkazem na CzechBioImg
+#### Supported... s odkazem na CzechBioImg
