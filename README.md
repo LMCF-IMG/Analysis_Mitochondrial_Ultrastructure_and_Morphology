@@ -16,13 +16,12 @@ Fig. 1: **A two-step approach to classify morphology or cristae** using new deep
 
 <img width="1361" height="893" alt="two-step-approach-to-classification" src="https://github.com/user-attachments/assets/84dc6aa9-6dcf-4ffd-b193-f76edf19bfb8" />
 
-See also **a PDF poster in file repository above**. The poster was presented at the [CzechBioImaging conference: Imaging Principles of Life 2025, September 17-19, Rozdrojovice, Brno, Czech Republic](https://www.czech-bioimaging.cz/activities/conference/).
+See also **a PDF poster in the file repository above**. The poster was presented at the [CzechBioImaging conference: Imaging Principles of Life 2025, September 17-19, Rozdrojovice, Brno, Czech Republic](https://www.czech-bioimaging.cz/activities/conference/).
 
 ### Protocols for training in napari and models
 
 ### Preparation of image data for training
 
 **Supported by research projects [CzBI2024-2 NV](https://www.czech-bioimaging.cz/activities/open-calls/) and RVO-VFN64165.
-We also acknowledge the Light Microscopy Core Facility, IMG, Prague, Czech Republic, supported by MEYS – LM2023050 Czech-BioImaging, MEYS – CZ.02.1.01/0.0/0.0/18_046/0016045 and MEYS –
-CZ.02.01.01/00/23_015/0008205, for their support with the image analysis presented herein.**
+We also acknowledge the [Light Microscopy Core Facility, IMG, Prague, Czech Republic](https://www.img.cas.cz/group/light-microscopy/), supported by MEYS – LM2023050 Czech-BioImaging, MEYS – CZ.02.1.01/0.0/0.0/18_046/0016045 and MEYS – CZ.02.01.01/00/23_015/0008205, for their support with the image analysis presented herein.**
 
