@@ -1,6 +1,6 @@
 # Analysis_Mitochondrial_Ultrastructure_and_Morphology
 
-**Macros for [ImageJ/Fiji](https://fiji.sc/) and newly created models for [napari]([https://fiji.sc/](https://napari.org/)).**
+**Macros for [ImageJ/Fiji](https://fiji.sc/) and newly created models for [napari](https://napari.org/).**
 
 The project presents a study focused on analyzing mitochondrial ultrastructure and cristae morphology in relation to various types of mitochondrial dysfunction. Mitochondria play a key role in cellular energy metabolism through oxidative phosphorylation (OXPHOS), and alterations in cristae structure are closely associated with impaired ATP production and mitochondrial diseases. To objectively characterize these structural changes, the authors developed a two-step deep learning pipeline for image analysis of electron microscopy data.
 
