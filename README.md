@@ -30,7 +30,7 @@ During the preparation of data for training (valid for both "images" and "masks"
 3. Compare whether the final file names in both directories for training ("images" and "masks") are the same and unique to each other. [03_Check_Names_Equality_images_masks.ijm]
 4. For some unknown reason Labkit slightly changes sizes (x,y) of exported images when compared with the original images to be labeled. Mostly it adds several pixels to both axes of the matrix size. Compare whether images with the same name are the same size. [04_Compare_Sizes_images_masks.ijm]
 5. Adjust the size of masks relative to images [05_Adjust_Image_Matrice_Sizes.ijm]
-6. Some 8-bit "masks" exported from Labkit are inverted in intensity, i.e., invert them back to a black background (intensity 0). [06_All_masks_to_Black_Background.ijm]  
+6. Some 8-bit "masks" exported from Labkit were inverted in intensity, i.e., invert them back to a black background (intensity 0). [06_All_masks_to_Black_Background.ijm]  
 
 **Supported by research projects [CzBI2024-2 NV](https://www.czech-bioimaging.cz/activities/open-calls/) and RVO-VFN64165.
 We also acknowledge the [Light Microscopy Core Facility, IMG, Prague, Czech Republic](https://www.img.cas.cz/group/light-microscopy/), supported by MEYS – LM2023050 Czech-BioImaging, MEYS – CZ.02.1.01/0.0/0.0/18_046/0016045 and MEYS – CZ.02.01.01/00/23_015/0008205, for their support with the image analysis presented herein.**
