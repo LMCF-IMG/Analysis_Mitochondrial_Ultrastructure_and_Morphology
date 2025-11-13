@@ -37,7 +37,7 @@ During the preparation of data for training (valid for both "images" and "masks"
 6. Some 8-bit "masks" exported from Labkit were inverted in intensity, i.e., invert them back to a black background (intensity 0). [06_All_masks_to_Black_Background.ijm]
 7. Some masks were in 32-bit, and even contained small holes. [07_Masks_Converting_to_8bit_and_Filling_Holes.ijm]
 8. Final visual check to ensure that the drawn masks correctly correspond to the objects (mitochondria/crystals) in the images and visualization of the quality of the objects to ensure they have good contrast. The images have different sizes in pixels. To load them into the stack for convenient checking in Imagej/Fiji, they must be copied to the largest image matrix that has been applied. [08_Visual_Checking_mask_Alignment_with_image_Objects.ijm]
-9. Splitting both images and masks into train and test sets for using in empanada-napari. [Python: 09_Splitting_Images_Into_Train_Test_Sets.py]
+9. Splitting both images and masks into train and test sets for using in empanada-napari. [Python: 09_Splitting_into_Train_Test_Sets.py]
 10. Creating patches 512x512 for training in empanada **from train set only** with defined high overlap. [10_Create_Patches_from_images_and_masks.ijm]
 
 
