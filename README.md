@@ -33,7 +33,7 @@ During the preparation of data for training (valid for both "images" and "masks"
 4. For some unknown reason Labkit slightly changes sizes (x,y) of exported images when compared with the original images to be labeled. Mostly it adds several pixels to both axes of the matrix size. Compare whether images with the same name are the same size. [04_Compare_Sizes_images_masks.ijm]
 5. If problems found in the previous step, adjust the size of masks relative to images [05_Adjust_Image_Matrice_Sizes.ijm]
 6. Some 8-bit "masks" exported from Labkit were inverted in intensity, i.e., invert them back to a black background (intensity 0). [06_All_masks_to_Black_Background.ijm]
-7. Some masks are in 32-bit, and even contain small holes. [07_Masks_Converting_to_8bit_and_Filling_Holes.ijm]
+7. Some masks were in 32-bit, and even contained small holes. [07_Masks_Converting_to_8bit_and_Filling_Holes.ijm]
 8. Final visual check to ensure that the drawn masks correctly correspond to the objects (mitochondria/crystals) in the images and visualization of the quality of the objects to ensure they have good contrast. The images have different sizes in pixels. To load them into the stack for convenient checking in Imagej/Fiji, they must be copied to the largest image matrix that has been applied. [08_Visual_Checking_mask_Alignment_with_image_Objects.ijm]
 9. Splitting both images and masks into train and test sets for using in empanada-napari. [Python: 09_Splitting_Images_Into_Train_Test_Sets.py]
 10. Creating patches 512x512 for training in empanada **from train set only** with defined high overlap. [10_Create_Patches_from_images_and_masks.ijm]
