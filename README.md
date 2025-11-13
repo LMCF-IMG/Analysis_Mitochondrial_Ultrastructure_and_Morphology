@@ -36,7 +36,7 @@ During the preparation of data for training (valid for both "images" and "masks"
 7. Some masks are in 32-bit, and even contain small holes. [07_Masks_Converting_to_8bit_and_Filling_Holes.ijm]
 8. Final visual check to ensure that the drawn masks correctly correspond to the objects (mitochondria/crystals) in the images and visualization of the quality of the objects to ensure they have good contrast. The images have different sizes in pixels. To load them into the stack for convenient checking in Imagej/Fiji, they must be copied to the largest image matrix that has been applied. [08_Visual_Checking_mask_Alignment_with_image_Objects.ijm]
 9. Splitting both images and masks into train and test sets for using in empanada-napari. [Python: 09_Splitting_Images_Into_Train_Test_Sets.py]
-10. Creating patches 512x512 for the training from train set only with defined high overlap.
+10. Creating patches 512x512 for training in empanada **from train set only** with defined high overlap. [10_Create_Patches_from_images_and_masks.ijm]
 
 
 **Supported by research projects [CzBI2024-2 NV](https://www.czech-bioimaging.cz/activities/open-calls/) and RVO-VFN64165.
