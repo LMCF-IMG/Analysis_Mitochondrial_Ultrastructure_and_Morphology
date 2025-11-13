@@ -22,7 +22,7 @@ See also **a PDF poster in the file repository above**. The poster was presented
 
 ### Evaluation of quality of trained models by segmentation metrics
 
-I used the following [umetrix](https://pypi.org/project/umetrix/) project to evaluate the quality of the resulting trained models. It allows us to calculate basic segmentation metrics, e.g. IoU, and confusion matrix, based on which the popular F1 score can be easily calculated. The project also allows us to evaluate a set of images in a directory in batch mode. The inputs to the algorithm are masks found by the trained model and those drawn manually in Labkit.
+I used [umetrix](https://pypi.org/project/umetrix/) project to evaluate the quality of the resulting trained models. It allows us to calculate basic segmentation metrics, e.g. IoU, and confusion matrix, based on which the popular F1 score can be easily calculated. The project also allows us to evaluate a set of images in a directory in batch mode. The inputs to the algorithm are masks found by the trained model and those drawn manually in Labkit.
 
 ### Preparation of image data for training
 
