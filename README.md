@@ -40,6 +40,8 @@ During the preparation of data for training (valid for both "images" and "masks"
 9. Splitting both images and masks into train and test sets for using in empanada-napari. [Python: 09_Splitting_into_Train_Test_Sets.py]
 10. Creating patches 512x512 for training in empanada **from train set only** with defined high overlap. [10_Create_Patches_from_images_and_masks.ijm]
 
+### Comments to cristae image data
+
 
 **Supported by research projects [CzBI2024-2 NV](https://www.czech-bioimaging.cz/activities/open-calls/) and RVO-VFN64165.
 We also acknowledge the [Light Microscopy Core Facility, IMG, Prague, Czech Republic](https://www.img.cas.cz/group/light-microscopy/), supported by MEYS – LM2023050 Czech-BioImaging, MEYS – CZ.02.1.01/0.0/0.0/18_046/0016045 and MEYS – CZ.02.01.01/00/23_015/0008205, for their support with the image analysis presented herein.**
