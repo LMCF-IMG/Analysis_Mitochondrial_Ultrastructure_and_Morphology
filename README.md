@@ -1,6 +1,6 @@
 # Analysis_Mitochondrial_Ultrastructure_and_Morphology
 
-**Macros for [ImageJ/Fiji](https://fiji.sc/) and models for [napari](https://napari.org/).**
+**Macros for [ImageJ/Fiji](https://fiji.sc/), scripts for Python and models for [empanada-napari](https://empanada.readthedocs.io/en/latest/).**
 
 **Nikol Volfová, M.Sc.**, from the [Department of Paediatrics and Adolescent Medicine, First Faculty of Medicine, Charles University and General University Hospital in Prague, Prague, Czech Republic](https://mitolab.lf1.cuni.cz/) cooperated with the analyses and kindly annotated and provided the training image datasets for creation of the models.
 
