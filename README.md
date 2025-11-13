@@ -42,6 +42,8 @@ During the preparation of data for training (valid for both "images" and "masks"
 
 ### Additional comments to cristae image data
 
+In the case of mitochondria, their masks were drawn in Labkit in the standard way, i.e., each mitochondrion had its own mask, and the result was an image with instance segmentations of individual mitochondria. There was one class here—only mitochondria.
+
 
 **Supported by research projects [CzBI2024-2 NV](https://www.czech-bioimaging.cz/activities/open-calls/) and RVO-VFN64165.
 We also acknowledge the [Light Microscopy Core Facility, IMG, Prague, Czech Republic](https://www.img.cas.cz/group/light-microscopy/), supported by MEYS – LM2023050 Czech-BioImaging, MEYS – CZ.02.1.01/0.0/0.0/18_046/0016045 and MEYS – CZ.02.01.01/00/23_015/0008205, for their support with the image analysis presented herein.**
