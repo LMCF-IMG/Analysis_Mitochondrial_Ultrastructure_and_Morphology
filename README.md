@@ -32,7 +32,7 @@ During the preparation of data for training (valid for both "images" and "masks"
 1. Replace spaces in names with underscores. napari does not read it. [Macro: "01_Replace_Spaces_in_Names_with_Underscores.ijm"]
 2. Labeled images created in Labkit were stored with suffix "_mask" to distinguish the names. But for training both "images" and "names" must have the same name to link them. String "_mask" has to be removed. [02_Remove_String_mask_from Names.ijm]
 3. Compare whether the final file names in both directories for training ("images" and "masks") are the same and unique to each other. [03_Check_Names_Equality_images_masks.ijm]
-4. For some unknown reason Labkit slightly changes sizes (x,y) of exported images when compared with the original images to be labeled. Mostly it adds several pixels to both axes of the matrix size. Compare whether images with the same name are the same size. [04_Compare_Sizes_images_masks.ijm]
+4. For some unknown reason Labkit slightly changes sizes (x,y) of exported masks when compared with the original images to be labeled. Mostly it adds several pixels to both axes of the matrix size. Compare whether images with the same name are the same size. [04_Compare_Sizes_images_masks.ijm]
 5. If problems found in the previous step, adjust the size of masks relative to images [05_Adjust_Image_Matrice_Sizes.ijm]
 6. Some 8-bit "masks" exported from Labkit were inverted in intensity, i.e., invert them back to a black background (intensity 0). [06_All_masks_to_Black_Background.ijm]
 7. Some masks were in 32-bit, and even contained small holes. [07_Masks_Converting_to_8bit_and_Filling_Holes.ijm]
