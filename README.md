@@ -44,7 +44,7 @@ During the preparation of data for training (valid for both "images" and "masks"
 
 In the case of mitochondria, their masks were drawn in Labkit in the standard way, i.e., each mitochondrion had its own mask, and the results were masks with instance segmentations of individual mitochondria, since there was one class here only - mitochondria.
 
-In the case of cristae, however, it is different. We defined twelve different basic morphological shapes of cristae, see Fig. 2. In Labkit, we therefore consistently used twelve different labels, see Fig. 3. Here, two major problems arose.
+In the case of cristae, however, it is different. We defined twelve different basic morphological shapes of cristae, see Fig. 2. In Labkit, we therefore consistently used twelve different labels, see Fig. 3. Here, two problems arose.
 
 ... ilustrační obrázek Labkit i třídy
 ... oba kódy na toto
