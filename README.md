@@ -44,10 +44,13 @@ During the preparation of data for training (valid for both "images" and "masks"
 
 In the case of mitochondria, their masks were drawn in Labkit in the standard way, i.e., each mitochondrion had its own mask, and the results were masks with instance segmentations of individual mitochondria, since there was one class here only - mitochondria.
 
-In the case of cristae, however, it is different. We defined twelve different basic morphological shapes of cristae, see the accompanyed poster. In Labkit, we therefore consistently used twelve different labels, see Fig. 3. Here, three problems arose.
+In the case of cristae, however, it is different. We defined twelve different basic morphological shapes of crists, see the accompanyed poster. In Labkit, we therefore consistently used twelve different labels, see Fig. 3. Three problems here arose:
 
-1. If not all classes are represented in the image we are annotating, the resulting image exported to TIF does not adhere to the intensities of individual classes, i.e., class 1 = intensity 1, class 2 = intensity 2, etc., but randomly shifts the resulting intensities in the image. We solved this by first drawing dots for all classes in each annotation and then drawing individual cristae. This way, the resulting exported image contained the correct intensities for all classes. 
+1. If not all classes are represented in the image we are annotating, the resulting image exported to TIF from Labkit does not adhere to the intensities of individual classes, i.e., class 1 = intensity 1, class 2 = intensity 2, etc., but randomly shifts the resulting intensities in the image. We solved this by first drawing dots for all classes in each annotation and then drawing individual cristae. This way, the resulting exported images contained the correct intensities for all classes. 
 
+2. Approximately 300 annotated images of crists were created in Labkit in the previous step. All label images contained additional label dots for all classes, which would negatively affect the quality of training. Therefore, they had to be manually removed from all images. We used the attached macro for this [11_Save_Labels_from_Labkit.ijm], which automatically opens individual cristae images together with the label image in Labkit in a loop, allows us to manually export the label image to Fiji, manually delete the dots, and automatically save the result to disk in the same directory.
+
+Translated with DeepL.com (free version)
 
 ... ilustrační obrázek Labkit i třídy
 ... oba kódy na toto
