@@ -21,6 +21,8 @@ See also **a PDF poster in the file repository above**. The poster was presented
 ### Protocols for training in empanada-napari and models
 
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari
+... export dat s použitím empanada do správné struktury
+... komentář Avishek?
 
 ### Evaluation of quality of trained models by segmentation metrics
 
@@ -56,8 +58,6 @@ In the case of cristae, however, it is different. We defined twelve different ba
 
 ... ilustrační obrázek Labkit i třídy
 ... oba kódy na toto
-... export dat s použitím empanada do správné struktury
-... komentář Avishek?
 
 
 **Supported by research projects [CzBI2024-2 NV](https://www.czech-bioimaging.cz/activities/open-calls/) and RVO-VFN64165.
