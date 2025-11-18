@@ -48,7 +48,7 @@ During the preparation of data for training (valid for both "images" and "masks"
 
 In the case of mitochondria, their masks were drawn in Labkit in the standard way, i.e., each mitochondrion had its own mask, and the results were masks with instance segmentations of individual mitochondria, since there was one class here only - mitochondria.
 
-In the case of cristae, however, it is different. We defined twelve different basic morphological shapes of crists, see the accompanyed poster. In Labkit, we therefore consistently used twelve different labels, see Fig. 2. Three problems here arose:
+In the case of **cristae, however, it is different**. We defined twelve different basic morphological shapes of crists, see the accompanyed poster. In Labkit, we therefore consistently used twelve different labels, see Fig. 2. Three problems here arose:
 
 1. If not all classes are represented in the image we are annotating, the resulting image exported to TIF from Labkit does not adhere to the intensities of individual classes, i.e., class 1 = intensity 1, class 2 = intensity 2, etc., but randomly shifts the resulting intensities in the image. We solved this by first drawing dots for all classes in each annotation and then drawing individual cristae. This way, the resulting exported images contained the correct intensities for all classes. 
 
