@@ -56,9 +56,7 @@ In the case of **cristae, however, it is different**. We defined twelve differen
 
 3. All images currently stored on disk have masks according to the individual classes. However, in order to train the model for panoptic segmentation, the masks used for training must also be recalculated accordingly. This means that, for example, class 1 with an intensity of 1 may have multiple objects in the mask image. These are recalculated to intensities starting at 1000, with 1 added for each object. This means that, for example, the 10th object of class 1 occurring in the image will have a value of 1009. For other classes it was solved similarly. For more information, see [Python: 12_Recompute_Labels_for_Panoptic_Segmentation.ipynb]
 
-... ilustrační obrázek Labkit i třídy
-... oba kódy na toto
-
+... ilustrační obrázek Labkit
 
 **Supported by research projects [CzBI2024-2 NV](https://www.czech-bioimaging.cz/activities/open-calls/) and RVO-VFN64165.
 We also acknowledge the [Light Microscopy Core Facility, IMG, Prague, Czech Republic](https://www.img.cas.cz/group/light-microscopy/), supported by MEYS – LM2023050 Czech-BioImaging, MEYS – CZ.02.1.01/0.0/0.0/18_046/0016045 and MEYS – CZ.02.01.01/00/23_015/0008205, for their support with the image analysis presented herein.**
