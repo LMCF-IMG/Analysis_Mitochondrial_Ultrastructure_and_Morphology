@@ -56,7 +56,7 @@ In the case of **cristae, however, it is different**. We defined twelve differen
 
 3. All images currently stored on disk have masks according to the individual classes. However, in order to train the model for panoptic segmentation, the masks used for training must also be recalculated accordingly. This means that, for example, class 1 with an intensity of 1 may have multiple objects in the mask image. These are recalculated to intensities starting at 1000, with 1 added for each object. This means that, for example, the 10th object of class 1 occurring in the image will have a value of 1009. For other classes it was solved similarly. For more information, see [Python: 12_Recompute_Labels_for_Panoptic_Segmentation.ipynb]
 
-Fig. 2: Original cristae image (left), labeling in Labkit using 12 labels and spots (middle), exported mask with the spots that had to be removed (right).
+Fig. 2: Segmented cristae image (left), labeling in Labkit using 12 labels and spots (middle), exported mask with the spots that had to be removed (right).
 
 <img width="1781" height="551" alt="Fig_2_Label_with_Spots" src="https://github.com/user-attachments/assets/9aa75616-521b-4ddd-829b-0c964a873d79" />
 
