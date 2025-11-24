@@ -18,9 +18,9 @@ Fig. 1: **A two-step approach to classify morphology or cristae** using new deep
 
 See also **a PDF poster in the file repository above**. The poster was presented at [CzechBioImaging conference: Imaging Principles of Life 2025, September 17-19, Rozdrojovice, Brno, Czech Republic](https://www.czech-bioimaging.cz/activities/conference/).
 
-### Protocols for training in empanada-napari and models
+### Protocols for training in empanada-napari and resulting models
 
-For training full images for segmentation of mitochondria we applied empanada plugin [*Finetune a model*](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetune-tutorial). We created two different models, the first one for original data acquired by Jeol 1400+ electron microscope, the second for scanned images from older electron microscope photographs. In both case we finetuned MitoNet_v1 model, which is delivered with empanada installation. We finetuned 4 last layers of this model.
+1. For training full images for segmentation of mitochondria we applied empanada plugin [*Finetune a model*](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetune-tutorial). We created two different models, the first one for original data acquired by Jeol 1400+ electron microscope, the second for scanned images from older electron microscope photographs. In both case we finetuned MitoNet_v1 model, which is delivered with empanada installation. We finetuned 4 last layers of this model.
 
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari
 ... export dat s použitím empanada do správné struktury
