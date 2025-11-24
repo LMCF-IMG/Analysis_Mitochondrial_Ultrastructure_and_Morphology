@@ -20,7 +20,7 @@ See also **a PDF poster in the file repository above**. The poster was presented
 
 ### Protocols for training in empanada-napari and models
 
-For training full images for segmentation of mitochondria we applied empanada plugin [*Finetune a model*](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetune-tutorial). 
+For training full images for segmentation of mitochondria we applied empanada plugin [*Finetune a model*](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetune-tutorial). We created two different models, the first one for original data acquired by Jeol 1400+ electron microscope, the second for scanned images from older electron microscope photographs. In both case we finetuned MitoNet_v1 model, which is delivered with empanada installation. We finetuned 4 last layers of this model.
 
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari
 ... export dat s použitím empanada do správné struktury
