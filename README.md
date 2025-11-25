@@ -18,7 +18,7 @@ Fig. 1: **A two-step approach to classify morphology or cristae** using new deep
 
 See **a PDF poster in the file repository above**. The poster was presented at [CzechBioImaging conference: Imaging Principles of Life 2025, September 17-19, Rozdrojovice, Brno, Czech Republic](https://www.czech-bioimaging.cz/activities/conference/).
 
-### Protocols for training in empanada-napari and resulting models
+### Protocols for training in empanada-napari
 
 1. For training images for **segmentation of mitochondria (STEP 1)** we applied empanada plugin [*Finetune a model*](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetune-tutorial). We created two different models, the first one for original data acquired by Jeol 1400+ electron microscope, the second for scanned images from older electron microscope photographs. In both case we finetuned *MitoNet_v1* model, which is delivered with empanada installation. We finetuned *4 last layers* of this model, *Patch size in pixels* = 512 and for *30 epochs**. Images and their masks, both 8bit, exported from Labkit and prepared as described below in details, were organized as shown [here](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetuning-the-model).
 
@@ -28,7 +28,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 **CEM stands for "CEM500K pretrained model weights" – i.e., model weights pretrained on a large set of CEM500K electron microscopy images. CEM500K is a large, heterogeneous, and unlabeled dataset (500,000 images) designed for machine learning in the field of cellular electron microscopy. The original authors showed that models – e.g., 2D U-Net – using CEM500K as a pretraining database not only achieve better IoU scores than with random initialization, but also converge much faster.
 
-
+### Resulting models
 
 ... *Dataset labels* na ownCloud  
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari
