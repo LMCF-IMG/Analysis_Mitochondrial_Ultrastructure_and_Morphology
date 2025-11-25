@@ -39,7 +39,8 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 I used [umetrix](https://pypi.org/project/umetrix/) project to evaluate the quality of the resulting trained models. It allows us to calculate basic segmentation metrics, e.g. IoU, and confusion matrix, based on which the popular F1 score can be easily calculated. The project also allows us to evaluate a set of images in a directory in batch mode. The inputs to the algorithm are masks found by the trained model and those drawn manually in Labkit.
 
-### Preparation of image data for training
+>[!USEFUL]
+>### Preparation of image data for training
 
 Images were labeled for masks of both mitochondria and cristae by using [Labkit](https://imagej.net/plugins/labkit/) plugin in ImageJ/Fiji.
 
