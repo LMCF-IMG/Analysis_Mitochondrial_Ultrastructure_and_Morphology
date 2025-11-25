@@ -24,7 +24,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 2. For creation of the panoptic model for **segmentation of cristae (STEP 2)** with recognizing **12 morphological classes**. For this traning we used another plugin [*Train a model*](https://empanada.readthedocs.io/en/latest/tutorials/train_panop.html#training-the-model). We applied *Label divisor* = 1000 - see prep of cristae image data below, model architecture *PanopticDeepLab*, *Finetunable layers* = all, *CEM pretrained weights*** checked and *200 epochs**.
 
-**Epochs computation*
+**The number of epochs is set as (number of images in the training set / 16) * number of iterations set in the dialog, where 16 is the size of 1 batch of images for 1 iteration. I really don't know why the developers programmed it this unusual way.*
 
 ***CEM stands for "CEM500K pretrained model weights" – i.e., model weights pretrained on a large set of CEM500K electron microscopy images. CEM500K is a large, heterogeneous, and unlabeled dataset (500,000 images) designed for machine learning in the field of cellular electron microscopy. The original authors showed that models – e.g., 2D U-Net – using CEM500K as a pretraining database not only achieve better IoU scores than with random initialization, but also converge much faster.*
 
