@@ -55,7 +55,7 @@ During the preparation of data for training (valid for both "images" and "masks"
 10. Creating patches 512x512 for training in empanada **from train set only** with defined high overlap. [10_Create_Patches_from_images_and_masks.ijm]
 
 >[!IMPORTANT]
->### Additional comments to cristae image data prep for panoptic segmentation training
+>### Additional comments to cristae data prep for panoptic segmentation training
 
 In the case of mitochondria, their masks were drawn in Labkit in the standard way, i.e., each mitochondrion had its own mask, and the results were masks with instance segmentations of individual mitochondria, since there was one class here only - mitochondria.
 
