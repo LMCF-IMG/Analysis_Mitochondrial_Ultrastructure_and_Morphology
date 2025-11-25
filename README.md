@@ -30,10 +30,8 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 
 
-... *Dataset labels* na ownCloud
+... *Dataset labels* na ownCloud  
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari
-... export dat s použitím empanada do správné struktury
-... komentář Avishek?
 
 ### Evaluation of quality of trained models by segmentation metrics
 
