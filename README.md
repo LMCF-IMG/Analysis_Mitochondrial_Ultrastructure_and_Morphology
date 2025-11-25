@@ -28,7 +28,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 **CEM stands for "CEM500K pretrained model weights" – i.e., model weights pretrained on a large set of CEM500K electron microscopy images. CEM500K is a large, heterogeneous, and unlabeled dataset (500,000 images) designed for machine learning in the field of cellular electron microscopy. The original authors showed that models – e.g., 2D U-Net – using CEM500K as a pretraining database not only achieve better IoU scores than with random initialization, but also converge much faster.
 
-### Resulting models
+### Resulting models and data available
 
 ... *Dataset labels* na ownCloud  
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari
