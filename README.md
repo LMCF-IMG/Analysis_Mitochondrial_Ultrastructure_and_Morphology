@@ -20,13 +20,13 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 ### Protocols for training in empanada-napari and resulting models
 
-1. For training images for **segmentation of mitochondria (STEP 1)** we applied empanada plugin [*Finetune a model*](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetune-tutorial). We created two different models, the first one for original data acquired by Jeol 1400+ electron microscope, the second for scanned images from older electron microscope photographs. In both case we finetuned *MitoNet_v1* model, which is delivered with empanada installation. We finetuned *4 last layers* of this model and for *30 epochs*. Images and their masks, exported from Labkit and prepared as described below in details, were organized as shown [here](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetuning-the-model).
+1. For training images for **segmentation of mitochondria (STEP 1)** we applied empanada plugin [*Finetune a model*](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetune-tutorial). We created two different models, the first one for original data acquired by Jeol 1400+ electron microscope, the second for scanned images from older electron microscope photographs. In both case we finetuned *MitoNet_v1* model, which is delivered with empanada installation. We finetuned *4 last layers* of this model and for ***30 epochs*. Images and their masks, exported from Labkit and prepared as described below in details, were organized as shown [here](https://empanada.readthedocs.io/en/latest/tutorials/finetune_tutorial.html#finetuning-the-model).
 
-2. For creation of the panoptic model for **segmentation of cristae (STEP 2)** with recognizing **12 morphological classes**. For this traning we used another plugin [*Train a model*](https://empanada.readthedocs.io/en/latest/tutorials/train_panop.html#training-the-model). We applied *Label divisor* = 1000, see prep of cristae image data below, model architecture *PanopticDeepLab*, *Finetunable layers* = all, *CEM pretrained weights** checked.
+2. For creation of the panoptic model for **segmentation of cristae (STEP 2)** with recognizing **12 morphological classes**. For this traning we used another plugin [*Train a model*](https://empanada.readthedocs.io/en/latest/tutorials/train_panop.html#training-the-model). We applied *Label divisor* = 1000, see prep of cristae image data below, model architecture *PanopticDeepLab*, *Finetunable layers* = all, *CEM pretrained weights** checked and *200 epochs***.
 
 **CEM stands for "CEM500K pretrained model weights" – i.e., model weights pretrained on a large set of CEM500K electron microscopy images. CEM500K is a large, heterogeneous, and unlabeled dataset (500,000 images) designed for machine learning in the field of cellular electron microscopy. The original authors showed that models – e.g., 2D U-Net – using CEM500K as a pretraining database not only achieve better IoU scores than with random initialization, but also converge much faster.*
 
-Translated with DeepL.com (free version)
+***Epochs computation*
 
 ... *Dataset labels* na ownCloud
 ... jak je dán *number of epochs* vysvětlit
