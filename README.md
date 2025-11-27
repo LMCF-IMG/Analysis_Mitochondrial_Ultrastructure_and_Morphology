@@ -31,7 +31,8 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 ### Resulting models and data available
 
 ... *Dataset labels* na ownCloud  
-... zmínit nutnost pospojování vysegmentovaných fragmentů v napari
+... zmínit nutnost pospojování vysegmentovaných fragmentů v napari  
+... jsou tam logfiles
 
 ### Evaluation of quality of trained models by segmentation metrics
 
