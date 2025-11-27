@@ -26,7 +26,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 *The *number of epochs* is set as (*number of images in the training set* / 16) * *number of iterations* set in the dialog, where 16 is the size of 1 batch of images for 1 iteration.
 
-**CEM stands for "CEM500K pretrained model weights", i.e., model weights pretrained on a large set of CEM500K electron microscopy images. CEM500K is a large, heterogeneous, and unlabeled dataset (500,000 images) designed for machine learning in the field of cellular electron microscopy. The original authors showed that models using CEM500K as a pretraining database not only achieve better IoU scores than with random initialization, but also converge much faster.
+**CEM stands for "CEM500K pretrained model weights", i.e., model weights pretrained on a large set of CEM500K electron microscopy images. CEM500K is a large, heterogeneous, and unlabeled dataset (500,000 images) designed for machine learning in the field of cellular electron microscopy. The original authors showed that models using CEM500K as a pretraining database not only achieve better IoU scores than with random initialization, but also converge faster.
 
 ### Resulting models and data available
 
