@@ -34,6 +34,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
   - [**Jeol 1400+ electron microscope data model**](https://owncloud.cesnet.cz/index.php/s/GRxauIeDbnSLiZV)
   - [**Electron microscope photographs model**](https://owncloud.cesnet.cz/index.php/s/HLK6E7o2hgh8h4B)
 
+... na kolika obrazech trénováno + jak dělení na části
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari  
 
 - **STEP 2** [**Cristae segmentation model**](https://owncloud.cesnet.cz/index.php/s/KLP6jyZzAU1OJdV)
