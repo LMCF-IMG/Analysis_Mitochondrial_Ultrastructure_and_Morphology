@@ -31,8 +31,8 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 ### Resulting models and data available
 
 - **STEP 1** Mitochondria segmentation models:
-  - [**Jeol 1400+ electron microscope data model**](https://owncloud.cesnet.cz/index.php/apps/files?dir=/_Empanada_Models/mitoELMI30epochs&fileid=657435849)
-  - [**Electron microscope photographs model**](https://owncloud.cesnet.cz/index.php/apps/files?dir=/_Empanada_Models/mitoSCAN30epochs&fileid=657435848)
+  - [**Jeol 1400+ electron microscope data model**](https://owncloud.cesnet.cz/index.php/s/GRxauIeDbnSLiZV)
+  - [**Electron microscope photographs model**](https://owncloud.cesnet.cz/index.php/s/HLK6E7o2hgh8h4B)
 
 ... *Dataset labels* na ownCloud  
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari  
