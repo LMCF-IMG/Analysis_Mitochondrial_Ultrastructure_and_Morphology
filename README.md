@@ -34,6 +34,9 @@ See **a PDF poster in the file repository above**. The poster was presented at [
   - [**Jeol 1400+ electron microscope data model**](https://owncloud.cesnet.cz/index.php/s/GRxauIeDbnSLiZV)
   - [**Electron microscope photographs model**](https://owncloud.cesnet.cz/index.php/s/HLK6E7o2hgh8h4B)
 
+
+In all cases, the models are represented by two files (*.pth + *.yaml). For including into empanada download both these files. Write the correct path into the yaml file under the 'model' item. Then, register the model by [*Register a model*](https://empanada.readthedocs.io/en/latest/modules/_register_model.html#register-model) using *Model config file* item.
+
 ... *Dataset labels* na ownCloud  
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari  
 ... jsou tam logfiles  
