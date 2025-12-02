@@ -36,8 +36,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari  
 
-- **STEP 2** Cristae segmentation model:
-  - [Cristae model](https://owncloud.cesnet.cz/index.php/s/KLP6jyZzAU1OJdV) 
+- **STEP 2** [**Cristae segmentation model**](https://owncloud.cesnet.cz/index.php/s/KLP6jyZzAU1OJdV)
 
 ... *Dataset labels* na ownCloud  
 
