@@ -33,7 +33,11 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 - **STEP 1** Mitochondria segmentation models:
   - [**Jeol 1400+ electron microscope data model**](https://owncloud.cesnet.cz/index.php/s/GRxauIeDbnSLiZV)
     - Annotated training set consisted of 3628 patched overlapping images (512x512 pixels) created from 189 original images.
+    - Comparison with original [MitoNet_v1 model](https://www.ebi.ac.uk/empiar/EMPIAR-11037/) trained using circa 135K mitochondrial instances:
+      Our model, test data - 22 images: IoU = 0.798, IoU (0.5) = 0.876  
+      Original MitoNet_v1, test data - 22 images: IoU = 0.596, IoU (0.5) = 0.766  
   - [**Electron microscope photographs model**](https://owncloud.cesnet.cz/index.php/s/HLK6E7o2hgh8h4B)
+    - 
 
 ... na kolika obrazech trénováno + jak dělení na části
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari  
