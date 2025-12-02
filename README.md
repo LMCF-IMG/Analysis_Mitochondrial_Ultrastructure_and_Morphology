@@ -43,8 +43,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
       Original MitoNet_v1, 9 test images: IoU = 0.724, IoU (0.5) = 0.830  
       In this case, the improvement of our model with respect to MitoNet_v1 is small. Probably, due to lower quality of images of scanned photographs.
 
-... na kolika obrazech trénováno + jak dělení na části
-... zmínit nutnost pospojování vysegmentovaných fragmentů v napari  
+After getting results using the models in empanada (original MitoNet_v1, our models), it happens that segmented mitochondria contains more labels, although their unions follow the shape of mitochondria well. In this case, apply [*Merge labels*](https://empanada.readthedocs.io/en/latest/modules/_merge.html#merge-labels) modul. For deleting additional, not correct labels apply [*Delete labels*](https://empanada.readthedocs.io/en/latest/modules/_delete.html#delete-labels) modul.
 
 - **STEP 2** [**Cristae segmentation model**](https://owncloud.cesnet.cz/index.php/s/KLP6jyZzAU1OJdV)
 
