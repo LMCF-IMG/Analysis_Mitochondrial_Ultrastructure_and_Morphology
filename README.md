@@ -53,7 +53,7 @@ The models are represented by two files (*.pth + *.yaml). For including into emp
 
 If you are interested, all models are accompanied by *Log* files describing the proces of training.
 
-...testovací obrázky  
+**TODO:** **Images for testing the models** can be found in the corresponding cloud folders.
 
 ### Evaluation of quality of trained models by segmentation metrics
 
