@@ -41,6 +41,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
     - Comparison with original [MitoNet_v1 model](https://www.ebi.ac.uk/empiar/EMPIAR-11037/):  
       Our model, 9 test images: IoU = 0.740, IoU (0.5) = 0.828  
       Original MitoNet_v1, 9 test images: IoU = 0.724, IoU (0.5) = 0.830  
+
       In this case, the improvement of our model with respect to MitoNet_v1 is small. Probably, due to lower quality of images of scanned photographs.
 
 ... na kolika obrazech trénováno + jak dělení na části
