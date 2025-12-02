@@ -30,12 +30,14 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 ### Resulting models and data available
 
-- **STEP 1** Mitochondria segmentation models
-  - [**Jeol 1400+ electron microscope data**](https://owncloud.cesnet.cz/index.php/apps/files/?dir=/_Empanada_Models/mitoELMI30epochs&fileid=657435849)
+- **STEP 1** Mitochondria segmentation models:
+  - [**Jeol 1400+ electron microscope data model**](https://owncloud.cesnet.cz/index.php/apps/files/?dir=/_Empanada_Models/mitoELMI30epochs&fileid=657435849)
+  - [**Electron microscope photographs model**](https://owncloud.cesnet.cz/index.php/apps/files/?dir=/_Empanada_Models/mitoSCAN30epochs&fileid=657435848)
 
 ... *Dataset labels* na ownCloud  
 ... zmínit nutnost pospojování vysegmentovaných fragmentů v napari  
-... jsou tam logfiles
+... jsou tam logfiles  
+... jak to vrazit do empanada
 
 ### Evaluation of quality of trained models by segmentation metrics
 
