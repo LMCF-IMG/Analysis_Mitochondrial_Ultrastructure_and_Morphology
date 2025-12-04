@@ -45,7 +45,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
       In this case, the improvement of our model with respect to MitoNet_v1 is small. Probably, due to lower quality of images of scanned photographs.
     - After getting results using the models in empanada (MitoNet_v1, our models), it happens that segmented mitochondria contains more labels, although their unions follow the shape of mitochondria well. In this case, apply [*Merge labels*](https://empanada.readthedocs.io/en/latest/modules/_merge.html#merge-labels) modul or try to use [*Image downsampling*](https://empanada.readthedocs.io/en/latest/tutorials/2d_tutorial.html#tuning-downsampling) for improving inference. For deleting additional, not correct labels apply [*Delete labels*](https://empanada.readthedocs.io/en/latest/modules/_delete.html#delete-labels). *It is not a bug, it is a feature.*    
 - **STEP 2** [**Cristae segmentation model**](https://owncloud.cesnet.cz/index.php/s/KLP6jyZzAU1OJdV)
-  - Annotated training set consisted of 3716 patched overlapping images (512x512 pixels) created from 271 original images.
+  - Annotated training set consisted of 3716 overlapping patches (512x512 pixels) created from 271 original images.
   - Metrics (no existing "cristae model" for comparison):  
     Our model, 28 test images: IoU = 0.518, IoU (0.5) = 0.675  
     [*Train a model*](https://empanada.readthedocs.io/en/latest/tutorials/train_panop.html#training-the-model) modul requires in this dialog description of *Dataset labels*. You will it in the cloud folder together with the model (*labels_description_for_model.txt*).  
