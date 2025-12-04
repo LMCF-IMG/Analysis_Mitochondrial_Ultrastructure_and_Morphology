@@ -54,7 +54,7 @@ The models are represented by two files (*.pth + *.yaml). For including into emp
 
 If you are interested, all models are accompanied by *Log* files describing the proces of training.
 
-**TODO:** **Images for testing the models** can be found in the corresponding cloud folders.
+**Images for testing the models** can be found in the corresponding cloud folders. The images are test data, this means that the models were not trained with them. You may find there original input data (_orig_images), manually annotated ground truth segmentation (_manuall_annotation) and segmentation results inferred by the models (_inference). Since the images differ by bit depth (8, 16, 32bit), see them best using ImageJ/Fiji.
 
 ### Evaluation of quality of trained models by segmentation metrics
 
