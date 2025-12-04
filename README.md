@@ -50,7 +50,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
     Our model, 28 test images: IoU = 0.518, IoU (0.5) = 0.675  
     [*Train a model*](https://empanada.readthedocs.io/en/latest/tutorials/train_panop.html#training-the-model) modul requires in this dialog description of *Dataset labels*. You will it in the cloud folder together with the model (*labels_description_for_model.txt*).  
 
-The models are represented by two files (*.pth + *.yaml). For including into empanada download both these files. Write the correct path into the yaml file under the 'model' item. Then, register the model by [*Register a model*](https://empanada.readthedocs.io/en/latest/modules/_register_model.html#register-model) using *Model config file*.
+**The models** are represented by two files (*.pth + *.yaml). For including into empanada download both these files. Write the correct path into the yaml file under the 'model' item. Then, register the model by [*Register a model*](https://empanada.readthedocs.io/en/latest/modules/_register_model.html#register-model) using *Model config file*.
 
 If you are interested, all models are accompanied by *Log* files describing the proces of training.
 
