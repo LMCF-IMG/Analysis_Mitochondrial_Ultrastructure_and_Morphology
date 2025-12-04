@@ -32,13 +32,13 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 - **STEP 1** Mitochondria segmentation models:
   - [**Jeol 1400+ electron microscope data model**](https://owncloud.cesnet.cz/index.php/s/GRxauIeDbnSLiZV)
-    - Annotated training set consisted of 3628 patched overlapping images (512x512 pixels) created from 189 original images.
+    - Annotated training set consisted of 3628 overlapping patches (512x512 pixels) created from 189 original images.
     - Comparison with original [MitoNet_v1 model](https://www.ebi.ac.uk/empiar/EMPIAR-11037/) trained using circa 135K mitochondrial instances:  
       Our model, 22 test images: IoU = 0.798, IoU (0.5) = 0.876  
       Original MitoNet_v1, 22 test images: IoU = 0.596, IoU (0.5) = 0.766  
       *The higher IoU value, the better.*
   - [**Scanned electron microscope photographs model**](https://owncloud.cesnet.cz/index.php/s/HLK6E7o2hgh8h4B)
-    - Annotated training set consisted of 1453 patched overlapping images (512x512 pixels) created from 80 original images.
+    - Annotated training set consisted of 1453 overlapping patches (512x512 pixels) created from 80 original images.
     - Comparison with original [MitoNet_v1 model](https://www.ebi.ac.uk/empiar/EMPIAR-11037/):  
       Our model, 9 test images: IoU = 0.740, IoU (0.5) = 0.828  
       Original MitoNet_v1, 9 test images: IoU = 0.724, IoU (0.5) = 0.830  
@@ -54,7 +54,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
 
 If you are interested, all models are accompanied by *Log* files describing the proces of training.
 
-**Images for testing the models** can be found in the corresponding cloud folders. The images are test data, this means that the models were not trained with them. You may find there original input data (_orig_images), manually annotated ground truth segmentation (_manuall_annotation) and segmentation results inferred by the models (_inference). Since the images differ by bit depth (8, 16, 32bit), see them best using ImageJ/Fiji.
+**Images for testing the models** can be found in the corresponding cloud folders. The images are test data, this means that the models were not trained with them. You may find there original input data (_orig_images), segmentation results inferred by the models (_inference) and manually annotated ground truth segmentation (_manuall_annotation) for comparison. Since the images differ by bit depth (8, 16, 32bit), see them best using ImageJ/Fiji.
 
 ### Evaluation of quality of trained models by segmentation metrics
 
