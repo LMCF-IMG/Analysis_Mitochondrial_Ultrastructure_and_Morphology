@@ -48,7 +48,7 @@ See **a PDF poster in the file repository above**. The poster was presented at [
   - Annotated training set consisted of 3716 overlapping patches (512x512 pixels) created from 271 original images.
   - Metrics (no existing "cristae model" for comparison):  
     Our model, 28 test images: IoU = 0.518, IoU (0.5) = 0.675  
-    [*Train a model*](https://empanada.readthedocs.io/en/latest/tutorials/train_panop.html#training-the-model) modul requires in this dialog description of *Dataset labels*. You will it in the cloud folder together with the model (*labels_description_for_model.txt*).  
+    [*Train a model*](https://empanada.readthedocs.io/en/latest/tutorials/train_panop.html#training-the-model) modul requires in this dialog description of *Dataset labels*. You will find it in the cloud folder together with the model (*labels_description_for_model.txt*).  
 
 **The models** are represented by two files (*.pth + *.yaml). For including into empanada download both these files. Write the correct path into the yaml file under the 'model' item. Then, register the model by [*Register a model*](https://empanada.readthedocs.io/en/latest/modules/_register_model.html#register-model) using *Model config file*.
 
